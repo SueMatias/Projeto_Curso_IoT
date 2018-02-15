@@ -1,6 +1,6 @@
 import time
-from upm import pyupm_temperature as upm
-from wiringx86 import GPIOGalileo as GPIO
+from upm import pyupm_temperature as upm 
+from wiringx86 import GPIOGalileo as GPIO 
 
 pinos = GPIO(debug=False)
 pino_sensor_temperatura = 0
